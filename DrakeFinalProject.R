@@ -9,11 +9,11 @@ require(pals)
 require(patchwork)
 
 
-Traffic2022 = read.csv("/Users/willdrake/Documents/DataViz/FinalProject/Data/2022-middletown.csv")
-Traffic2021 = read.csv("/Users/willdrake/Documents/DataViz/FinalProject/Data/2021-middletown.csv")
-Traffic2020 = read.csv("/Users/willdrake/Documents/DataViz/FinalProject/Data/2020-middletown.csv")
-Traffic2019 = read.csv("/Users/willdrake/Documents/DataViz/FinalProject/Data/2019-middletown.csv")
-Traffic2018 = read.csv("/Users/willdrake/Documents/DataViz/FinalProject/Data/2018-middletown.csv")
+Traffic2022 = read.csv("PUT LOCATION OF 2022 CSV DOWNLOAD HERE")
+Traffic2021 = read.csv("PUT LOCATION OF 2021 CSV DOWNLOAD HERE")
+Traffic2020 = read.csv("PUT LOCATION OF 2020 CSV DOWNLOAD HERE")
+Traffic2019 = read.csv("PUT LOCATION OF 2019 CSV DOWNLOAD HERE")
+Traffic2018 = read.csv("PUT LOCATION OF 2018 CSV DOWNLOAD HERE")
 
 Traffic2020 %>% 
   rename("ReasonForStop" = "ResonForStop") -> Traffic2020
